@@ -1,0 +1,9 @@
+# synth_snap.ys — Yosys synthesis for iCE40UP5K
+# Uses synth_ice40 pass for proper BRAM inference
+
+read_verilog snap_lut.v
+read_verilog constraint_snap_top.v
+
+synth_ice40 -top constraint_snap_top -json constraint_snap_top.json
+
+stat
