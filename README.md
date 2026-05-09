@@ -1,5 +1,15 @@
 # snap-lut — Pythagorean Triple Snap Lookup Table for FPGA
 
+
+## Meta
+
+**Domain:** other
+**Depends on:** —
+**Depended by:** —
+**Implements:** Pythagorean triple snap lookup table for FPGA BRAM — one BRAM, zero FP, determin...
+**Related:** —
+
+
 One BRAM block. Zero floating point. Deterministic WCET.
 
 Maps any angle to the nearest Pythagorean triple angle using a pre-computed
